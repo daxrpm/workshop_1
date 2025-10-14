@@ -12,7 +12,7 @@ def sum_convergence_with_error(max_error: float) -> None:
     """
 
     sum: float = 1
-    counter: int = 0
+    counter: int = 1  # 1 thinking that the 1 counts as an add
     divider: int = 2
     while (True):
 
